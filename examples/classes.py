@@ -13,10 +13,3 @@ class Student:
 
     def show(self):
         print(self.name + "'s age is: " + str(self.age))
-
-jessa = Student('Jessa', 20)
-jessa.show()
-
-# create new object using the factory method
-joy = Student.calculate_age("Joy", 1995)
-joy.show()
